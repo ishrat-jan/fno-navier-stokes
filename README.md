@@ -57,12 +57,6 @@ The model is trained **only** on 16×16 data but evaluated on both 16×16 and 32
 
 Error increases at the higher resolution (expected — the model has never seen this grid spacing), but it still produces qualitatively correct solutions, demonstrating the resolution-invariance property.
 
-### Visualization (32×32, Unseen Resolution)
-
-![FNO predictions at 32x32 resolution](fno_darcy_results.png)
-
-Each row shows one test sample: the input coefficient field a(x), the ground truth solution u(x), and the FNO prediction. The model captures the overall structure of the solution despite never training at this resolution.
-
 ---
 
 ## Repository Structure
