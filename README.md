@@ -52,8 +52,8 @@ The model is trained **only** on 16×16 data but evaluated on both 16×16 and 32
 
 | Test Resolution | Samples | Relative L2 Error |
 |---|---|---|
-| 16×16 (seen) | 100 | ~14.9% |
-| 32×32 (unseen) | 50 | ~25.6% |
+| 16×16 (seen) | 100 | ~9.5% |
+| 32×32 (unseen) | 50 | ~13.6% |
 
 Error increases at the higher resolution (expected — the model has never seen this grid spacing), but it still produces qualitatively correct solutions, demonstrating the resolution-invariance property.
 
